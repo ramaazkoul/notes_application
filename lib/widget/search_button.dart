@@ -7,9 +7,10 @@ class SearchButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.grey.withValues(alpha: 0.3),
+        color: Colors.grey.withValues(alpha: 0.2),
         borderRadius: BorderRadius.circular(15),
       ),
-      child: IconButton(onPressed: () {}, icon: Icon(Icons.search , size: 28,)));
+      child: IconButton(onPressed: () {}, icon: Icon(Icons.search, size: 28)),
+    );
   }
 }
