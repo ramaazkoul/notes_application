@@ -24,7 +24,7 @@ class NotesCard extends StatelessWidget {
           children: [
             ListTile(
               contentPadding: EdgeInsets.zero,
-              title: Text(
+              title:  Text(
                 'Flutter tips',
                 style: TextStyle(fontSize: 26, color: Colors.black),
               ),
