@@ -22,7 +22,7 @@ class ModalBottomSheetBody extends StatelessWidget {
               print('Added note successfuly');
             }
           }, 
-              child: SingleChildScrollView(child: AddNoteForm()),
+              child: AddNoteForm(),
       
           
         ),
