@@ -29,7 +29,7 @@ class NotesCard extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (context) {
-                          return EditNotesView();
+                          return EditNotesView(note: note);
                         },
                       ),
                     );
