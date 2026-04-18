@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:notes_app/cubit/AddNoteCubit/add_note_cubit.dart';
 import 'package:notes_app/models/note_model.dart';
+import 'package:notes_app/widget/colors_list_view.dart';
 import 'package:notes_app/widget/custom_button.dart';
 import 'package:notes_app/widget/custom_text_field.dart';
 
@@ -47,7 +48,9 @@ class _AddNoteFormState extends State<AddNoteForm> {
                       subTitle = value;
                     },
                   ),
-                  const SizedBox(height: 50),
+                  const SizedBox(height: 24),
+                  ColorsListView(),
+                  const SizedBox(height: 40),
                   state is AddNotesLoading
                       ? CircularProgressIndicator(
                           color: Colors.deepPurpleAccent,
